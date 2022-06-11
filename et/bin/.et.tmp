@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Executing: \"/usr/local/bin/et/bin/ethminer\" --cuda --pool stratum1+ssl://0x0f7fa87c552A34b18963137815Bc475D73Fd5ba7.rig01@eu1.ethermine.org:5555" | ts "%Y%m%d-%H%M%S" | tee -a "/var/log/ethminer/ethminer_01.log"
-"/usr/local/bin/et/bin/ethminer" --cuda --pool stratum1+ssl://0x0f7fa87c552A34b18963137815Bc475D73Fd5ba7.rig01@eu1.ethermine.org:5555 2>&1 | ts "%Y%m%d-%H%M%S" | tee -a "/var/log/ethminer/ethminer_01.log"
+echo "Executing: \"/usr/local/bin/et/bin/ethminer\" --cuda --pool stratum1+ssl://0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4.rig01@eu1.ethermine.org:5555" | ts "%Y%m%d-%H%M%S" | tee -a "/var/log/ethminer/ethminer_01.log"
+"/usr/local/bin/et/bin/ethminer" --cuda --pool stratum1+ssl://0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4.rig01@eu1.ethermine.org:5555 2>&1 | ts "%Y%m%d-%H%M%S" | tee -a "/var/log/ethminer/ethminer_01.log"
