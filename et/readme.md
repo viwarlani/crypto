@@ -33,6 +33,7 @@ It's a small collection of simple bash scripts. It works whether you have dedica
 ```
 cd $(mktemp -d)
 git clone https://github.com/viwarlani/ethminer-autorestart.git
+cd ethminer-autorestart && cd bin
 sudo mkdir -p /usr/local/bin/et
 sudo mv ethminer-autorestart/* /usr/local/bin/et/
 sudo chown -R root:root /usr/local/bin/et
