@@ -18,9 +18,9 @@
 ##		There is no warranty, to the extent permitted by law.
 ##	Donations:
 ##		Donations are welcome at:
-##		XMR: 44LiTd9eJZbBULNvzLsVUxYaJjcT7dxUPfBCwk8qbY1DN3nnsYBYomqWkhoe1t9RuAfGCJauZS2xw85PZPtPR5MR791cdqx
-##		ETH: 0x01226C328A1d8085156b624D1DA78dC8ff954e8C
-##		BTC: bc1q2urqexl49w4t9e7xd9fwg7jpnkdunhle3chec4
+##		XMR: 8Bie5uuU18eSCc7c9eqWJGh2YMfTRz3og5f2wjqFcGt12ynzLZZvNoqJ5HYs2xuv2nPC8gksmYTCLXHQJLVfNSeUQsBG7Eg
+##		ETH: 0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4
+##		BTC: 1NPgcV7FomPoZNuPQKQ1bLFZHhzCAYNEiS
 
 
 function doIt(){
@@ -29,7 +29,7 @@ function doIt(){
 	if [[ "$EUID" != "0"  ]]; then echo -e "\nMust run as root or sudo.\n"; exit 1; fi
 
 	## Constants
-	local -r publicWallet_Eth="0x0f7fa87c552A34b18963137815Bc475D73Fd5ba7"                                       ## <-- PUT YOUR PUBLIC ETH KEY HERE
+	local -r publicWallet_Eth="0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4"                                       ## <-- PUT YOUR PUBLIC ETH KEY HERE
 	local -r workerName="rig01"                                       ## <-- PUT YOUR RIG ID HERE (or leave as-is - will use hostname which is a good idea).
 	local -r gpuFlag="--cuda"                                               ## <-- --cuda or
 	local -r poolScheme="stratum1+ssl"                                      ## <-- This is probably OK for ethermine.org.
