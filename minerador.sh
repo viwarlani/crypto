@@ -12,7 +12,7 @@
 
 #                                   Authority
 #            +---------------------------------------------------------------------+
-#  stratum://0x123456789012345678901234567890.Worker:password@eu1.ethermine.org:4444
+#  stratum://0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4.Worker:password@eu1.ethermine.org:4444
 #  +------+  +----------------------------------------------+ +---------------+ +--+
 #      |                         |                                  |             |
 #      |                         |                                  |             + > Port
@@ -54,7 +54,7 @@ SERVER="eu1.ethermine.org"
 PORT="5555"
 
 #
-POOL="0x0f7fa87c552A34b18963137815Bc475D73Fd5ba7.$HOSTNAME"
+POOL="0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4.$HOSTNAME"
 
 while [ 1 ]; do
 	/usr/local/bin/et/bin/ethminer -U --HWMON 1 --farm-retries 4 -P stratum1+ssl://$POOL@$SERVER:$PORT &> /dev/null
