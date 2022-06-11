@@ -20,9 +20,9 @@ echo "fire, especially when forcing restarts after heat-related crashes! Please"
 echo "investigate why restarts are needed, rule out heat, and be careful."
 echo
 echo "If this improves your life, XMR donations are welcome at:"
-echo "XMR: 44LiTd9eJZbBULNvzLsVUxYaJjcT7dxUPfBCwk8qbY1DN3nnsYBYomqWkhoe1t9RuAfGCJauZS2xw85PZPtPR5MR791cdqx"
-echo "ETH: 0x01226C328A1d8085156b624D1DA78dC8ff954e8C"
-echo "BTC: bc1q2urqexl49w4t9e7xd9fwg7jpnkdunhle3chec4"
+echo "XMR: 8Bie5uuU18eSCc7c9eqWJGh2YMfTRz3og5f2wjqFcGt12ynzLZZvNoqJ5HYs2xuv2nPC8gksmYTCLXHQJLVfNSeUQsBG7Eg"
+echo "ETH: 0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4"
+echo "BTC: 1NPgcV7FomPoZNuPQKQ1bLFZHhzCAYNEiS"
 echo
 
 ## Validate installation
