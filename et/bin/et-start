@@ -25,11 +25,6 @@ echo "ETH: 0x925966644EdEc86d0CC1C1cc6165A25A78b91Ba4"
 echo "BTC: 1NPgcV7FomPoZNuPQKQ1bLFZHhzCAYNEiS"
 echo
 
-## Validate installation
-if [[ ! -d /usr/local/et/bin/et ]]; then echo -e "The 'et-' suite of scripts in not installed correctly. Read 'readme.md'.\n"; exit 1; fi
-
-## Validate sudo
-#if [[ "$EUID" != "0"  ]]; then echo -e "Must run as root or sudo.\n"; exit 1; fi
 
 ## Get sudo
 echo "[ Getting sudo ... ]"
